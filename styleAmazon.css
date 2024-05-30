@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+     /* FONDO DONDE DICE AMAZON PRIME */
+header {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+       /* FONDO DONDE ESTA LAS SECCIONES INICOS, NIÑOS, SERIES, PELICULAS */
+nav {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+     /* LETRAS INICOS, NIÑOS, SERIES, PELICULAS */
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 120px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    background-color: #fefefe;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+img {
+    width: 100px;
+    height: auto;
+    display: inline-block; 
+    margin: 10px; 
+}
+
+.full-width-section {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+  }
+  
+
+  .full-width-section img {
+    max-width: 150px;
+    margin: 10px;
+    flex: 1 0 auto;
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+header, nav, section {
+    width: 100%;
+}
+header {
+    background-color: #000;
+    color: white;
+    padding: 10px;
+}
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+.welcome-section {
+    background-color: #000;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+.content-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+.card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
